@@ -1,0 +1,580 @@
+.antet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: orange;
+}
+
+.description-antet {
+  width: 95%;
+  height: auto;
+}
+
+.description-antet p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.description-cart {
+  width: 3%;
+  height: auto;
+  font-size: 25px;
+}
+
+.description-cart i {
+  margin-top: 30%;
+  color: #404040;
+  cursor: pointer;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.category a {
+  font-family: Apple Chancery, cursive;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.category a:hover {
+  font-weight: bold;
+}
+
+.category-for-men {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.category-for-men a {
+  font-family: Courier, monospace;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.category-for-men a:hover {
+  font-weight: bold;
+}
+
+.category-for-women {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.category-for-women a {
+  font-family: Courier, monospace;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.category-for-women a:hover {
+  font-weight: bold;
+}
+
+.category-for-kids {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.category-for-kids a {
+  font-family: Courier, monospace;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.category-for-kids a:hover {
+  font-weight: bold;
+}
+
+.image-container {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.image-1 {
+  width: 42.5%;
+  height: auto;
+  text-align: center;
+  font-family: Courier, monospace;
+}
+
+.image-1 img {
+  width: 55%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 5s;
+}
+
+.image-2 {
+  width: 42.5%;
+  height: auto;
+  text-align: center;
+  font-family: Courier, monospace;
+}
+
+.image-2 img {
+  width: 55%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 5s;
+}
+
+.outfits {
+  margin-top: 35px;
+  font-family: Bookman, URW Bookman L, serif;
+  background-color: #EDEDED;
+}
+
+.outfits h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.outfits h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.outfits-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.outfit-1 {
+  width: 28%;
+  height: auto;
+  text-align: center;
+  font-family: FreeMono, monospace;
+}
+
+.outfit-1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outfits-2 {
+  margin-top: 35px;
+  font-family: DejaVu Sans Mono, monospace;
+  background-color: #EDEDED;
+}
+
+.outfits-2 h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.outfits-2 h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.outfits-image-2 {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.outfits-image-2 img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand {
+  margin-top: 35px;
+  font-family: DejaVu Sans Mono, monospace;
+  background-color: #EDEDED;
+}
+
+.brand h2 {
+  text-align: center;
+}
+
+.brands {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.brand-button {
+  border: 1px solid black;
+  background-color: #EDEDED;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  width: 130px;
+  font-family: Apple Chancery, cursive;
+  padding: 5px 35px;
+  margin-top: 10px;
+}
+
+.sport-category {
+  margin-top: 35px;
+  font-family: DejaVu Sans Mono, monospace;
+  background-color: #EDEDED;
+}
+
+.sport-category h2 {
+  text-align: center;
+}
+
+.outfits-3 {
+  margin-top: 35px;
+  font-family: DejaVu Sans Mono, monospace;
+  background-color: #EDEDED;
+}
+
+.outfits-3 h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.outfits-image-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 35px;
+}
+
+.outfit-2 {
+  width: 28%;
+  height: auto;
+  text-align: center;
+  font-family: FreeMono, monospace;
+}
+
+.outfit-2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-tshirts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.firms {
+  width: 170px;
+  word-wrap: break-word;
+  margin-top: 15px;
+}
+
+.firms a {
+  font-family: Apple Chancery, cursive;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.firms a:hover {
+  font-weight: bold;
+}
+
+.firms ul {
+  list-style-type: none;
+}
+
+.firms li {
+  margin-top: 20px;
+}
+
+.products-tshirts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.tshirt-1 {
+  width: 22%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: #F3F3F3;
+  font-family: Apple Chancery, cursive;
+}
+
+.tshirt-1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tshirt-1 p:not(:last-of-type) {
+  padding-left: 15px;
+}
+
+.tshirt-1 p:last-of-type {
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+
+.discount {
+  width: 12%;
+  height: auto;
+  word-wrap: break-word;
+  background-color: #F94646;
+}
+
+.discount p {
+  text-align: center;
+  color: white;
+  font-family: Apple Chancery, cursive;
+}
+
+.about-tshirts {
+  width: 80%;
+  height: auto;
+}
+
+.about-tshirts p {
+  text-align: center;
+  color: #67A6FD;
+  font-family: Apple Chancery, cursive;
+  font-size: 18px;
+}
+
+.model-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.photos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 62%;
+  height: auto;
+}
+
+.model-image-1 {
+  width: 48%;
+  height: auto;
+}
+
+.model-image-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.model-image-2 {
+  width: 32%;
+  height: auto;
+}
+
+.model-image-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 34%;
+  height: auto;
+  text-align: center;
+}
+
+.brand-image {
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.brand-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details-links {
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+}
+
+.details-links a {
+  text-decoration: none;
+}
+
+.details-links a:hover {
+  font-weight: 800;
+  color: black;
+}
+
+.price p:first-of-type {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+}
+
+.price p:last-of-type {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.price span {
+  color: grey;
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.icons {
+  color: black;
+  text-align: left;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.icons i {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.icons span {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+  padding-left: 10px;
+}
+
+#size {
+  margin-top: 12px;
+  width: 40%;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  border: 2px solid black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#size option {
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.size input[type=submit] {
+  margin-top: 12px;
+  width: 40%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: solid;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.size label {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
+.about-us {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.order-image {
+  width: 20%;
+  height: auto;
+}
+
+.order-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
