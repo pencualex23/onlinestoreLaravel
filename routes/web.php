@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function(){
-    return view('/men');
-});
-Route::get('/men', 'MenController@index');
-Route::get('/women', 'WomenController@index');
-Route::get('/kids', 'KidsController@index');
-Route::get('/men/tshirts' , 'MenController@tshirts');
-Route::get('/men/tshirts/{id}' , 'MenController@model');
-Route::post('/men/tshirts/{id}' , 'MenController@buy');
+Route::get('/', 'MyController@homePage');
+Route::get('/men', 'MyController@index');
+Route::get('/men/tshirts' , 'MyController@tshirtsForMan');
+Route::get('/men/tshirts/{id}' , 'MyController@model');
+Route::post('/men/tshirts/{id}' , 'MyController@buy');
+Route::post('/login' , 'MyController@login');
+Route::get('/logout' , 'MyController@logout');
+Route::post('/register' , 'MyController@register');
+Route::get('/deleteOrder/{id}' , 'MyController@deleteOrder');

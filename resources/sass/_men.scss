@@ -6,9 +6,10 @@
     width: 100%;
     height: auto;
     background-color: orange;
+    z-index: 1;
 }
 .description-antet{
-    width: 95%;
+    width: 92%;
     height: auto;
     p{
         text-align: center;
@@ -23,6 +24,24 @@
     font-size: 25px;
     i{
         margin-top: 30%;
+        color: #404040;
+        cursor: pointer;
+    }
+}
+.antet-login{
+    width: 3%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    i{
+        margin-top: 40%;
+        color: #404040;
+        cursor: pointer;
+    }
+    a{
+        margin-top: 25%;
         color: #404040;
         cursor: pointer;
     }
@@ -102,7 +121,7 @@
 }
 
 .image-container{
-    width: 85%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -113,32 +132,46 @@
 }
 
 .image-1{
-    width: 42.5%;
+    width: 25%;
     height: auto;
     text-align: center;
     font-family: Courier, monospace;
     img{
-        width: 55%;
+        width: 100%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        transition-duration: 5s;
+        transition-duration: 1s;
     }
 }
 
 .image-2{
-    width: 42.5%;
+    width: 25%;
     height: auto;
     text-align: center;
     font-family: Courier, monospace;
     img{
-        width: 55%;
+        width: 100%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        transition-duration: 5s;
+        transition-duration: 1s;
+    }
+}
+.image-3{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    font-family: Courier, monospace;
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 1s;
     }
 }
 

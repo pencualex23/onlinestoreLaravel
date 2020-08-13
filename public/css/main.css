@@ -6,10 +6,11 @@
   width: 100%;
   height: auto;
   background-color: orange;
+  z-index: 1;
 }
 
 .description-antet {
-  width: 95%;
+  width: 92%;
   height: auto;
 }
 
@@ -28,6 +29,27 @@
 
 .description-cart i {
   margin-top: 30%;
+  color: #404040;
+  cursor: pointer;
+}
+
+.antet-login {
+  width: 3%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.antet-login i {
+  margin-top: 40%;
+  color: #404040;
+  cursor: pointer;
+}
+
+.antet-login a {
+  margin-top: 25%;
   color: #404040;
   cursor: pointer;
 }
@@ -114,7 +136,7 @@
 }
 
 .image-container {
-  width: 85%;
+  width: 90%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -125,35 +147,51 @@
 }
 
 .image-1 {
-  width: 42.5%;
+  width: 25%;
   height: auto;
   text-align: center;
   font-family: Courier, monospace;
 }
 
 .image-1 img {
-  width: 55%;
+  width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transition-duration: 5s;
+  transition-duration: 1s;
 }
 
 .image-2 {
-  width: 42.5%;
+  width: 25%;
   height: auto;
   text-align: center;
   font-family: Courier, monospace;
 }
 
 .image-2 img {
-  width: 55%;
+  width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transition-duration: 5s;
+  transition-duration: 1s;
+}
+
+.image-3 {
+  width: 25%;
+  height: auto;
+  text-align: center;
+  font-family: Courier, monospace;
+}
+
+.image-3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 1s;
 }
 
 .outfits {
@@ -576,5 +614,298 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.credit-card {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.payment {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.payment label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.payment input[type=text] {
+  width: 30%;
+  padding: 10px;
+}
+
+.payment input[type=password] {
+  width: 30%;
+  padding: 10px;
+}
+
+.payment input[type=submit] {
+  width: 30%;
+  padding: 10px;
+  background-color: #555;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+.back-to-cart {
+  width: 30%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: 1px solid red;
+  cursor: pointer;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login {
+  display: none;
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 10;
+  background-color: #F2F2F2;
+  box-shadow: 10px 10px #DCDCDC;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+#login label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#login label:last-of-type {
+  margin-top: 20px;
+}
+
+#login input[type=text] {
+  width: 40%;
+  padding: 10px;
+}
+
+#login input[type=password] {
+  width: 40%;
+  padding: 10px;
+}
+
+#login input[type=submit] {
+  width: 40%;
+  padding: 10px;
+  background-color: #555;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+.close-cart-button:last-of-type {
+  width: 40%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: 1px solid red;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.close-cart-button:first-of-type {
+  width: 40%;
+  padding: 10px;
+  background-color: #75CA6D;
+  color: white;
+  text-align: center;
+  border: 1px solid #75CA6D;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.close-login {
+  width: 40%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid red;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.LoginForm {
+  margin-top: 15px;
+}
+
+.RegisterForm {
+  margin-top: 15px;
+}
+
+#register {
+  display: none;
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 10;
+  background-color: #F2F2F2;
+  box-shadow: 10px 10px #DCDCDC;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+#register label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#register label:last-of-type {
+  margin-top: 20px;
+}
+
+#register input[type=text] {
+  width: 40%;
+  padding: 10px;
+}
+
+#register input[type=password] {
+  width: 40%;
+  padding: 10px;
+}
+
+#register input[type=submit] {
+  width: 40%;
+  padding: 10px;
+  background-color: #555;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+#shoppingcart {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: none;
+  position: absolute;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 10;
+  background-color: #F2F2F2;
+  box-shadow: 10px 10px #DCDCDC;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  align-items: center;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.cart-close-button {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.shopping-image {
+  width: 12%;
+  height: auto;
+  margin-left: 15px;
+}
+
+.shopping-image img {
+  width: 100%;
+  height: auto;
+}
+
+.order-size {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 15px;
+}
+
+.order-brand {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 15px;
+}
+
+.order-price {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 15px;
+}
+
+.trash-icon {
+  font-size: 20px;
+  margin-left: 15px;
+  color: red;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
